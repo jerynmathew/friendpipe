@@ -60,6 +60,8 @@ INSTALLED_APPS = (
     'allauth.account',
     'allauth.socialaccount',
     'allauth.socialaccount.providers.google',
+
+    'core.chat',
 )
 
 MIDDLEWARE_CLASSES = (
