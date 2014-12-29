@@ -5,4 +5,4 @@ from django.contrib.auth.decorators import login_required
 
 @login_required
 def chat_home(request):
-	return render(request, "index.html", {'user': "UserMan"})
+	return render(request, "index.html")

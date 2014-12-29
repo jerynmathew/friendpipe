@@ -35,8 +35,8 @@
                     </button>
                     <a class="navbar-brand" href="#">FriendPipe</a>
                 </div>
-                <div id="navbar" class="navbar-collapse collapse">
-                    <a class="navbar-brand" href="#">{{ user }}</a>
+                <div id="navbar" class="navbar-collapse collapse navbar-right">
+                    <a class="navbar-brand" href="/accounts/logout/">{{ user.get_full_name|default:user.username }}</a>
                 </div><!--/.navbar-collapse -->
             </div>
         </nav>
